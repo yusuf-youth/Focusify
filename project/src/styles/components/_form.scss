@@ -1,0 +1,34 @@
+.form {
+  --parent-gap: 10px;
+
+  position: absolute;
+  transition-duration: var(--transition-duration);
+  translate: 0 calc(100% + var(--parent-gap));
+  opacity: 0;
+  z-index: -1;
+  transition-timing-function: linear;
+
+  &.is-active {
+    translate: 0 0;
+    opacity: 1;
+    z-index: initial;
+  }
+
+  &__input {
+    width: 100%;
+    height: var(--input-height);
+    padding-inline: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    opacity: 0.7;
+    transition-duration: var(--transition-duration);
+
+    &:focus,
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

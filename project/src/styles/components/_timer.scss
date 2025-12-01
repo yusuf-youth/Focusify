@@ -1,0 +1,15 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2px;
+  max-height: 46px;
+  font-size: 60px;
+  font-weight: 500;
+  user-select: none;
+  text-align: center;
+
+  &__colon {
+    padding-bottom: 10px;
+  }
+}

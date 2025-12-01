@@ -1,0 +1,12 @@
+export const TIMER_STATUS = {
+    INITIAL: "INITIAL",
+    PLAYING: "PLAYING",
+    PAUSED: "PAUSED",
+    STOPPED: "STOPPED",
+    RESTARTED: "RESTARTED"
+}
+
+export const LOCAL_STORAGE_NAMES = {
+    SUBJECTS: "SUBJECTS",
+    TIMER: "TIMER"
+}

@@ -1,0 +1,62 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 7px;
+  background-color: lightgray;
+  border-radius: var(--border-radius);
+  transition-duration: var(--transition-duration);
+
+  &--fade {
+    opacity: 0.7;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    transition-duration: var(--transition-duration);
+
+    &:disabled {
+      pointer-events: none;
+    }
+
+    &:hover {
+      background-color: var(--color-silver-gray);
+    }
+
+    &--modify {
+      padding: 2px;
+    }
+
+    svg {
+      width: 80%;
+      height: 80%;
+      transition-duration: var(--transition-duration);
+    }
+
+    &--add {
+      &.is-active {
+        svg {
+          rotate: 45deg;
+        }
+      }
+    }
+
+    &--modify {
+      &.is-active {
+        svg {
+          scale: 1.15;
+        }
+      }
+    }
+  }
+}
