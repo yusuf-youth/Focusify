@@ -63,7 +63,7 @@ The app has several features:
     <b>Persistent Storage. </b> All your tasks and settings are saved automatically through local storage, so nothing gets lost.
   </li>
   <li>
-    <b>Design. </b> The app features a minimalistic design that keeps the interface clean, simple, and distraction-free.
+    <b>Design. </b> The app features a minimalistic design with subtle, smooth animations, keeping the interface clean and distraction-free.
   </li>
   <li>
     <b>Accessibility. </b> It includes accessibility features like visually-hidden elements, aria-labels, and title attributes to support inclusive use.
